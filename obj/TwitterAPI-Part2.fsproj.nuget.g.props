@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/akshaysharma/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/akshaysharma/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/akshaysharma/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSystem_Text_Json Condition=" '$(PkgSystem_Text_Json)' == '' ">/Users/akshaysharma/.nuget/packages/system.text.json/5.0.0</PkgSystem_Text_Json>
+    <PkgSystem_Net_WebSockets Condition=" '$(PkgSystem_Net_WebSockets)' == '' ">/Users/akshaysharma/.nuget/packages/system.net.websockets/4.3.0</PkgSystem_Net_WebSockets>
+    <PkgSystem_Net_Http Condition=" '$(PkgSystem_Net_Http)' == '' ">/Users/akshaysharma/.nuget/packages/system.net.http/4.3.4</PkgSystem_Net_Http>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/akshaysharma/.nuget/packages/fsharp.core/5.0.0</PkgFSharp_Core>
+    <PkgSuave Condition=" '$(PkgSuave)' == '' ">/Users/akshaysharma/.nuget/packages/suave/2.6.0</PkgSuave>
+    <PkgNuGet_CommandLine Condition=" '$(PkgNuGet_CommandLine)' == '' ">/Users/akshaysharma/.nuget/packages/nuget.commandline/5.8.0</PkgNuGet_CommandLine>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/akshaysharma/.nuget/packages/newtonsoft.json/12.0.3</PkgNewtonsoft_Json>
+    <PkgMicrosoft_AspNetCore_Http Condition=" '$(PkgMicrosoft_AspNetCore_Http)' == '' ">/Users/akshaysharma/.nuget/packages/microsoft.aspnetcore.http/2.2.2</PkgMicrosoft_AspNetCore_Http>
+    <PkgMathNet_Numerics Condition=" '$(PkgMathNet_Numerics)' == '' ">/Users/akshaysharma/.nuget/packages/mathnet.numerics/4.12.0</PkgMathNet_Numerics>
+    <PkgJson_Net Condition=" '$(PkgJson_Net)' == '' ">/Users/akshaysharma/.nuget/packages/json.net/1.0.23</PkgJson_Net>
+    <PkgAkka_Remote Condition=" '$(PkgAkka_Remote)' == '' ">/Users/akshaysharma/.nuget/packages/akka.remote/1.4.12</PkgAkka_Remote>
+    <PkgAkka_FSharp Condition=" '$(PkgAkka_FSharp)' == '' ">/Users/akshaysharma/.nuget/packages/akka.fsharp/1.4.12</PkgAkka_FSharp>
+  </PropertyGroup>
+</Project>

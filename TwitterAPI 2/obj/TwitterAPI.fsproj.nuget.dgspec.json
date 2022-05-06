@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/akshaysharma/OneDrive - University of Florida/UFL/Masters/Distributed OS/Project4 part 2/TwitterAPI/TwitterAPI.fsproj": {}
+  },
+  "projects": {
+    "/Users/akshaysharma/OneDrive - University of Florida/UFL/Masters/Distributed OS/Project4 part 2/TwitterAPI/TwitterAPI.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/akshaysharma/OneDrive - University of Florida/UFL/Masters/Distributed OS/Project4 part 2/TwitterAPI/TwitterAPI.fsproj",
+        "projectName": "TwitterAPI",
+        "projectPath": "/Users/akshaysharma/OneDrive - University of Florida/UFL/Masters/Distributed OS/Project4 part 2/TwitterAPI/TwitterAPI.fsproj",
+        "packagesPath": "/Users/akshaysharma/.nuget/packages/",
+        "outputPath": "/Users/akshaysharma/OneDrive - University of Florida/UFL/Masters/Distributed OS/Project4 part 2/TwitterAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/akshaysharma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "Akka.Remote": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.23, )",
+              "generatePathProperty": true
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.12.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )",
+              "generatePathProperty": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )",
+              "generatePathProperty": true
+            },
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.8.0, )",
+              "generatePathProperty": true
+            },
+            "Suave": {
+              "target": "Package",
+              "version": "[2.6.0, )",
+              "generatePathProperty": true
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )",
+              "generatePathProperty": true
+            },
+            "System.Net.WebSockets": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
